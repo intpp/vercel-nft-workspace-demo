@@ -1,0 +1,13 @@
+{
+  "name": "vercel-nft-workspace-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:app1": "node apps/app1/app.js",
+    "files:app1": "node apps/app1/nft.js"
+  },
+  "dependencies": {
+    "@vercel/nft": "^0.22.6"
+  },
+  "author": "intpp",
+  "workspaces": ["apps/*"]
+}
