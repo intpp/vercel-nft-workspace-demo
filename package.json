@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev:app1": "node apps/app1/app.js",
-    "files:app1": "node apps/app1/nft.js"
+    "files:app1": "node apps/app1/nft.js",
+    "files:app1:base": "node apps/app1/nft.js --with-base",
+    "files:app1:cwd": "node apps/app1/nft.js --with-cwd",
+    "files:app1:base-cwd": "node apps/app1/nft.js --with-cwd"
   },
   "dependencies": {
     "@vercel/nft": "^0.22.6"

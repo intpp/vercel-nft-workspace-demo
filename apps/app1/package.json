@@ -5,7 +5,14 @@
   "author": "intpp",
   "scripts": {
     "dev": "node app.js",
-    "files": "node nft.js"
+    "files": "node nft.js",
+    "files:base": "node nft.js --with-base",
+    "files:root-base": "node nft.js --with-root-base",
+    "files:cwd": "node nft.js --with-cwd",
+    "files:root-cwd": "node nft.js --with-root-cwd",
+    "files:base-cwd": "node nft.js --with-base --with-cwd",
+    "files:root-base-cwd": "node nft.js --with-root-base --with-root-cwd"
+
   },
   "dependencies": {
     "intpp-some-nft-demo": "1.0.0"
